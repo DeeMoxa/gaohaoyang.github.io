@@ -11,8 +11,11 @@
 
     {% include footer.html %}
     {% include backToTop.html %}
-    <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-    <script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/jquery-1.10.2.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/lunr/lunr-store.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/lunr/lunr.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
     <script type="text/javascript">
       smoothScroll.init({
         speed: 500, // Integer. How fast to complete the scroll in milliseconds
