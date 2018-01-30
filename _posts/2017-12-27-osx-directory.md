@@ -11,7 +11,7 @@ env       | path
 redis     | /usr/local/bin/redis-server
 zookeeper | /usr/local/
 
-mac path                      | synopsis
+mac directories                      | synopsis
 ---|---
 /bin                          | 传统unix命令的存放目录，如ls，rm，mv等
 /sbin                         | 传统unix管理类命令存放目录，如fdisk，ifconfig等等

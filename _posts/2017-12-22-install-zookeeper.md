@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mac下安装zookeeper
+title: 安装zookeeper
 tags: [zookeeper,mac]
 ---
 
