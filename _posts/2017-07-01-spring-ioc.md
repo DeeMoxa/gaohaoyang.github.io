@@ -10,6 +10,7 @@ tag: spring
 由接口一系列方法可以了解container的基本模型，对bean的不同检索方法即为container最基本入口
 ![]({{ site.url }}{{ site.baseurl }}/images/component/spring-ioc01.png)
 
+[spring体系接口](https://www.cnblogs.com/zrtqsk/p/4028453.html)
 由上图深入理解spring介绍的两种IOC设计主线
 
 1. BeanFactory-->HierarchicalBeanFactory-->ConfigurableBeanFactory
